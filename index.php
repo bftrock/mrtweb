@@ -67,7 +67,7 @@ switch ($mode) {
 
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<link href='http://fonts.googleapis.com/css?family=Dosis:400,600|Quattrocento+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="/css/mrt.css" />
+	<link rel="stylesheet" type="text/css" href="css/mrt.css" />
 	<title>MyRemoteTunnel: Login</title>
 
 	<style type="text/css">
@@ -134,7 +134,7 @@ switch ($mode) {
 
 <?php if ($err_msg) echo "<div id=\"err_msg\"><p class=\"bold\">Log in error</p><p>{$err_msg}</p></div><p></p>"; ?>
 </div>
-<script src="/js/jquery.js"></script>
+<script src="js/jquery.js"></script>
 </body>
 
 </html>

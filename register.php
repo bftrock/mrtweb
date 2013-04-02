@@ -36,7 +36,7 @@ if (check_field("m", $_REQUEST)) {
 
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<link href='http://fonts.googleapis.com/css?family=Dosis:400,600|Quattrocento+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="/css/mrt.css" />
+	<link rel="stylesheet" type="text/css" href="css/mrt.css" />
 	<title>MyRemoteTunnel: Register</title>
 	<style type="text/css">
 
@@ -62,7 +62,7 @@ if (check_field("m", $_REQUEST)) {
 <div id="container">
 
 	<div id="header">
-		<h1><a href="/index.php">MyRemoteTunnel</a></h1>
+		<h1><a href="index.php">MyRemoteTunnel</a></h1>
 	</div>
 
 
@@ -94,8 +94,8 @@ if (check_field("m", $_REQUEST)) {
 
 </div>
 
-<script src="/js/jquery.js"></script>
-<script src="/js/mrt.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/mrt.js"></script>
 <script type="text/javascript">
 
 function submitForm() {

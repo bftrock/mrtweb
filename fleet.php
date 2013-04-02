@@ -22,7 +22,7 @@ if ($user->in_session) {
 
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<link href='http://fonts.googleapis.com/css?family=Dosis:400,600|Quattrocento+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="/css/mrt.css" />
+	<link rel="stylesheet" type="text/css" href="css/mrt.css" />
 	<title>MyRemoteTunnel: Fleet</title>
 	<style type="text/css">
 
@@ -63,11 +63,11 @@ if ($user->in_session) {
 <div id="container">
 
 	<div id="login">
-		<p><a href="/user.php"><?php echo $user->name; ?></a>&nbsp;|&nbsp;<a href="index.php?m=lo">Log out</a></p>
+		<p><a href="user.php"><?php echo $user->name; ?></a>&nbsp;|&nbsp;<a href="index.php?m=lo">Log out</a></p>
 	</div>
 	
 	<div id="header">
-		<h1><a href="/index.php">MyRemoteTunnel</a></h1>
+		<h1><a href="index.php">MyRemoteTunnel</a></h1>
 	</div>
 
 	<div id="content">
