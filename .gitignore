@@ -1,0 +1,6 @@
+*.zip
+test*
+.DS_Store
+*.pxm
+*.log
+log.txt
