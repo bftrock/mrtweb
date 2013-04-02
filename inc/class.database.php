@@ -5,8 +5,8 @@ require_once ("util.mrt.php");
 class database {
 
 	const DB_HOST = "localhost";
-	const DB_UNAME = "root";
-	const DB_PWD = "";
+	const DB_UNAME = "mrtuser";
+	const DB_PWD = "Otis1990!";
 	const DB_NAME = "mrt";
 	
 	public $conn = null;
